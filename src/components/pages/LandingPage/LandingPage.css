@@ -1,0 +1,102 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Styling for the hero section */
+.hero {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.cta-button {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #c0392b;
+}
+
+/* Styling for the features section */
+.features {
+  background-color: #f2f2f2;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature .icon {
+  font-size: 36px;
+  color: #3498db;
+}
+
+.feature p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.additional-content {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.additional-content p {
+  font-size: 18px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 0;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .features {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .feature {
+    margin-bottom: 20px;
+  }
+
+  .cta-button {
+    font-size: 16px;
+  }
+}
