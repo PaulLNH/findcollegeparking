@@ -8,7 +8,7 @@ function Register() {
             <div className="FormPage">
                 <iframe
                     src="https://docs.google.com/forms/d/e/1FAIpQLSdWqfPdGwjC7QPVYTl77IbcUANxS2iYeo1QEbyuszBq2bjWYg/viewform?embedded=true"
-                    height="1900"
+                    height="2900"
                     frameborder="0"
                     marginheight="0"
                     marginwidth="0"
