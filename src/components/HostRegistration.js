@@ -1,13 +1,13 @@
-import './TenantRegistration.css';
+import './HostRegistration.css';
 import Navbar from "./Navbar";
 
 function Register() {
     return (
-        <fragment className="tenant-registration">
+        <fragment className="host-registration">
             <Navbar />
             <div className="FormPage">
                 <iframe
-                    src="https://docs.google.com/forms/d/e/1FAIpQLSdWqfPdGwjC7QPVYTl77IbcUANxS2iYeo1QEbyuszBq2bjWYg/viewform?embedded=true"
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSeWHtG9l24kHnf2pFM75Iv65A7-1dgui8slOsBcQLPo_WI1Tg/viewform?embedded=true"
                     height="1900"
                     frameborder="0"
                     marginheight="0"

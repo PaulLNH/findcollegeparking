@@ -11,10 +11,10 @@ const Hero = () => {
                     <div className='col-1'>
                         <h1>Find College Parking</h1>
                         <h1><span className='primary-color'>Durham, NH</span></h1>
-                        <p>Discover stress-free parking with FindCollegeParking. Your ideal spot is just a click away – we connect students with available parking spaces, making your campus life easier.</p>
+                        <p>Discover stress-free parking with Find College Parking. Your ideal spot is just a click away – we connect students with available off-campus parking spaces, making your campus life easier. Click "Find Parking Now" below to register, outline your preferences, and be added the waitlist. We'll reach out when an available space based on your criteria is available!</p>
                         <div className='used-by'>
                             <Link to="/tenant-register">
-                                <button className="cta-button">Find Parking</button>
+                                <button className="cta-button">Find Parking Now</button>
                             </Link>
                         </div>
                     </div>
@@ -25,7 +25,6 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }

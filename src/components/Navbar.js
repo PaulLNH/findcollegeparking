@@ -16,6 +16,7 @@ const Navbar = () => {
             <ul className={showMenu ? 'nav-menu active' : 'nav-menu'}>
                 <Link to="/"><li className='nav-item'>Home</li></Link>
                 <Link to="/tenant-register"><li className='nav-item'>Find Parking</li></Link>
+                <Link to="/host-register"><li className='nav-item'>Host Parking</li></Link>
                 <Link
                     to="#"
                     onClick={(e) => {

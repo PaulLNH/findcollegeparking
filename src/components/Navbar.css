@@ -23,11 +23,19 @@
 
 #logo {
     color: var(--primary);
-    height: 48px;
-    width: 48px;
+    height: 42px;
+    width: 42px;
+    margin-left: 1rem;
 }
 
 @media screen and (max-width: 940px) {
+    #logo {
+        color: var(--primary);
+        height: 30px;
+        width: 30px;
+        margin-left: auto;
+    }
+
     .nav-menu {
         position: fixed;
         left: -100%;

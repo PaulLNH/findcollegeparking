@@ -7,6 +7,7 @@ import {
 import './index.css';
 import App from './App';
 import TenantRegistration from "./components/TenantRegistration";
+import HostRegistration from "./components/HostRegistration";
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/host-register",
-    element: <TenantRegistration />
+    element: <HostRegistration />
   },
 ]);
 

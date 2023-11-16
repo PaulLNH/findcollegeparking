@@ -4,6 +4,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 :root {
@@ -32,4 +34,25 @@ body {
 
 .primary-color {
   color: var(--primary);
+}
+
+/* Thin scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background-color: var(--darkgrey); /* Dark gray background color */
+}
+
+/* Handle (thumb) */
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondary); /* Purple color */
+  border-radius: 4px; /* Rounded corners for the thumb */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--primary); /* Darker purple color on hover */
 }
