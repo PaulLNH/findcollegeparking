@@ -15,11 +15,11 @@ const router = createBrowserRouter([
     element: <App />
   },
   {
-    path: "/tenant-register",
+    path: "/tenant",
     element: <TenantRegistration />
   },
   {
-    path: "/host-register",
+    path: "/host",
     element: <HostRegistration />
   },
 ]);
