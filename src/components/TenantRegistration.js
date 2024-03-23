@@ -1,7 +1,7 @@
 import './TenantRegistration.css';
 import Navbar from "./Navbar";
 
-function Register() {
+function TenantRegistration() {
     return (
         <fragment className="tenant-registration">
             <Navbar />
@@ -22,4 +22,4 @@ function Register() {
     );
 }
 
-export default Register;
+export default TenantRegistration;
