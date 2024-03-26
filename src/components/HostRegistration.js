@@ -11,9 +11,9 @@ function HostRegistration() {
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSeWHtG9l24kHnf2pFM75Iv65A7-1dgui8slOsBcQLPo_WI1Tg/viewform?embedded=true"
             height="3200"
-            frameborder="0"
-            marginheight="0"
-            marginwidth="0"
+            frameBorder="0"
+            marginHeight="0"
+            marginWidth="0"
             title="Find College Parking Form"
             id="FCPForm"
           >
