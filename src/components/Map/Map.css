@@ -1,5 +1,5 @@
 .dynamic-height-iframe {
-    height: calc(100vh - 60px); /* Adjust the 60px to match the actual height of your navbar */
+    height: calc(100vh); /* Adjust the 60px to match the actual height of your navbar */
     width: 100%;
     border: none;
 }
