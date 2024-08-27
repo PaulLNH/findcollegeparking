@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './App.css';
 import Navbar from './components/shared/Navbar';
 import Map from './components/Map/Map';
 import InstructionModal from './components/InstructionModal';
@@ -32,6 +33,14 @@ function App() {
       <Navbar />
       <Map />
       {showModal && <InstructionModal onClose={handleCloseModal} />}
+      <div className="floating-text">
+        <span className="desktop-text">
+          Support ongoing maintenance and hosting costs by <a href="/donate">donating</a>.
+        </span>
+        <span className="mobile-text">
+          <a href="/donate">Support the site</a>
+        </span>
+      </div>
     </>
   );
 }

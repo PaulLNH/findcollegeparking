@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom";
-import { FaBars, FaTimes, FaMapMarkerAlt } from 'react-icons/fa'
+import { FaBars, FaTimes } from 'react-icons/fa'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -17,8 +17,8 @@ const Navbar = () => {
                 <div className='nav-menu'>
                     <ul>
                         <Link to="/"><li className='nav-item'>Home</li></Link>
-                        <Link to="/tenant-register"><li className='nav-item'>Find Parking</li></Link>
                         <Link to="/host-register"><li className='nav-item'>Host Parking</li></Link>
+                        <Link to="/donate"><li className='nav-item'>Donate</li></Link>
                         <Link
                             to="#"
                             onClick={(e) => {

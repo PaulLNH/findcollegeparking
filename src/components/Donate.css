@@ -1,0 +1,70 @@
+/* src/components/Donate.css */
+
+/* General Styles */
+.donate-container {
+    width: 100%;
+    min-height: 100vh;
+    background: var(--darkgrey);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.donate-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.content-container {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-container p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* Payment Methods Section */
+.payment-methods {
+    background: var(--secondary);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.payment-methods h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.payment-methods form {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.payment-methods img.venmo-qr {
+    width: 200px;
+    height: 200px;
+    border: 2px solid var(--primary);
+    border-radius: 10px;
+}
+
+#donate_paypal_button {
+    width: 150px;
+}

@@ -9,6 +9,7 @@ import App from './App';
 import TenantRegistration from "./components/TenantRegistration";
 import HostRegistration from "./components/HostRegistration";
 import Home from './components/Home';
+import Donate from './components/Donate';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "/test",
     element: <Home />
+  },
+  {
+    path: "/donate",
+    element: <Donate />
   }
 ]);
 
